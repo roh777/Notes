@@ -10,3 +10,8 @@ React JS is a view library to design interfaces. It's opensource and is develope
 - It uses a **virtual DOM** representation of actual webpage in JS. It is used by React to optimally change the actual DOM, instead of completely refreshing it.
 
 - Components - are at the heart of React. They represent a subsection of webpage/inteface.
+
+#### Things to keep in mind.
+
+* fn(props) => returns (View). Your user interface is a *function* of your *state*.
+* Properties are similar to components as arguments in function.
